@@ -25,7 +25,7 @@ class DataManager(object):
     @classmethod
     def save(cls, save_df: pd.DataFrame):
         from sqlalchemy import create_engine
-        engine = create_engine("mysql+pymysql://root:Amyj198711@localhost/data_analysis")
+        engine = create_engine("mysql+pymysql://root:your_password@localhost/data_analysis")
         save_df.to_sql(name="amoy_job_tmp", con=engine, index=False, if_exists="replace")
         # 使用有签名的utf_8_sig保存，或者自己重新在编辑器里面保存
         # save_df.to_csv(cls.SAVE_PATH, index=False, encoding="utf_8_sig")
