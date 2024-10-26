@@ -68,7 +68,7 @@ class DataProcessing(object):
 
         # 写入数据库
         from sqlalchemy import create_engine
-        engine = create_engine("mysql+pymysql://root:Amyj198711@localhost/data_analysis")
+        engine = create_engine("mysql+pymysql://root:your_password@localhost/data_analysis")
         self.data_frame.to_sql(name="rent", con=engine, index=False, if_exists="replace")
 
     """def price_process(self):
