@@ -1,7 +1,6 @@
 # 1、数据集说明
 
 这是一份来自 Johns Hopkins University 在github 开源的全球新冠肺炎 [COVID-19](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) 数据集，每日时间序列汇总，包括确诊、死亡和治愈。所有数据来自每日病例报告。数据持续更新中。
->由于数据集中没有美国的治愈数据，所以在统计全球的现有确诊人员和治愈率的时候会有很大误差，代码里面先不做这个处理，期待数据集的完善。
 
 # 2、 理解数据
 
