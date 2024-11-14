@@ -18,5 +18,5 @@ reports_file_analysis是对dataset/csse_covid_19_data/csse_covid_19_daily_report
 discard是废弃代码，是在初期分析时使用到的代码，后期没有使用到。
 
 # 4、 分析思路
-[analysis_process](./target_task.md)
+[analysis_process](./dataset/target_task.md)
 
